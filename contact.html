@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — John Gerard R. Tan</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md tabs-nav sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span class="brand-stamp">JGT</span>
+      <span>John Gerard Tan</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation" style="background-color: var(--paper);">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="container py-5">
+  <p class="section-tag mb-2 reveal">Contact</p>
+  <h1 class="hero-title reveal" style="font-size: clamp(2.2rem, 5vw, 3.4rem);">Let's talk</h1>
+</header>
+
+<section class="container pb-5">
+  <div class="row g-5">
+    <div class="col-lg-5 reveal">
+      <div class="postcard p-4 h-100 d-flex flex-column">
+        <div class="d-flex justify-content-between align-items-start mb-4">
+          <p class="section-tag mb-0">Reach me</p>
+          <div class="stamp" aria-hidden="true">JGT<br>MCST</div>
+        </div>
+        <ul class="list-unstyled" style="font-family:'IBM Plex Mono', monospace; font-size: 0.92rem;">
+          <li class="mb-3">
+            <span class="d-block" style="color: var(--ink-soft); font-size: 0.75rem;">EMAIL</span>
+            <a href="mailto:johngerardtan555@gmail.com">johngerardtan555@gmail.com</a>
+          </li>
+          <li>
+            <span class="d-block" style="color: var(--ink-soft); font-size: 0.75rem;">PHONE</span>
+            <a href="tel:+639929454268" style="color: var(--ink);">0992 945 4268</a>
+          </li>
+        </ul>
+        <p class="mt-auto mb-0" style="color: var(--ink-soft);">Open to school projects, craft collaborations, and general questions.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-7 reveal">
+      <div class="pin-card stitched">
+        <p class="section-tag mb-3">Send a message</p>
+        <form id="contact-form" novalidate>
+          <div class="mb-3">
+            <label for="cf-name" class="form-label">Your name</label>
+            <input type="text" class="form-control" id="cf-name" required>
+          </div>
+          <div class="mb-3">
+            <label for="cf-email" class="form-label">Your email</label>
+            <input type="email" class="form-control" id="cf-email" required>
+          </div>
+          <div class="mb-4">
+            <label for="cf-message" class="form-label">Message</label>
+            <textarea class="form-control" id="cf-message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-ink">Send message &rarr;</button>
+          <p class="mt-3 mb-0" style="font-size: 0.8rem; color: var(--ink-soft);">This opens your email app with the message pre-filled.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+    <p class="font-mono mb-0">&copy; 2026 JOHN GERARD R. TAN</p>
+    <p class="font-mono mb-0"><a href="mailto:johngerardtan555@gmail.com">johngerardtan555@gmail.com</a></p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
